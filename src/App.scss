@@ -1,0 +1,36 @@
+body {
+  background-color: #98ddca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main {
+  background-color: tomato;
+  height: 30rem;
+  width: 25rem;
+  margin-top: 2rem;
+}
+
+.navbar {
+  background-color: lavender;
+  h1 {
+    padding: 0.5rem;
+  }
+}
+
+.form {
+  margin: 0 auto;
+  width: 20rem;
+  input,
+  textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+  }
+  textarea {
+    height: 20rem;
+  }
+}
